@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisir l'opération :"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/group_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+        <RadioButton
+            android:id="@+id/radio_c_to_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celsius vers Fahrenheit"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/radio_f_to_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fahrenheit vers Celsius" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edit_valeur_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir la valeur"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_convert_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp" />
+
+    <TextView
+        android:id="@+id/text_result_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>

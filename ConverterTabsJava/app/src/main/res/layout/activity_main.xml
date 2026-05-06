@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Bar d'onglets (TabLayout) -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/barre_onglets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="#E91E63"
+        app:tabSelectedTextColor="#E91E63"
+        app:tabMode="fixed"/>
+
+    <!-- Conteneur pour les fragments (ViewPager2) -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/contenu_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
