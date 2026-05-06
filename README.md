@@ -11,7 +11,7 @@ Voici le rendu final de l'application sur l'emulateur :
 
 | Onglet 1 : Temperature | Onglet 2 : Distance |
 | :---: | :---: |
-| ![Temperature](img-lab5-dev/1.png) | ![Distance](img-lab5-dev/2.png) |
+| ![Temperature](img-lab5-dev/3.png) | ![Distance](img-lab5-dev/4.png) |
 | Conversion Celsius <-> Fahrenheit | Conversion KM <-> Miles |
 
 ---
